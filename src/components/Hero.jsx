@@ -14,7 +14,7 @@ export default function Hero() {
         id="home"
         className="container flex flex-col justify-center w-full min-h-screen mx-auto xl:flex-row gap-y-10"
       >
-        <section className="relative z-10 flex flex-col items-start justify-center px-8 xl:w-2/5 pt28">
+        <section className="relative z-10 flex flex-col items-start justify-center px-8 xl:w-2/5 pt-28">
           <p className="text-xl text-[#ff6452]">Our Summer Collections</p>
           <h1 className="mt-10 font-palanquin text-black text-8xl max-sm:text-[72px] leaading-[106px] max-sm:leading-[82px] font-bold">
             <span className="relative z-10 pr-10 bg-white lg:text-8xl font-palanquin xl:whitespace-nowrap">
@@ -31,18 +31,38 @@ export default function Hero() {
             Shop Now
             <HiArrowCircleRight className="ml-2 text-2xl rounded-full" />
           </button>
-          <div className="flex flex-wrap items-start justify-start w-full gap-16 mt-20">
+          <div className="flex flex-wrap items-start justify-start w-full gap-10 mt-20 lg:gap-15">
             <div>
-              <p>1k+</p>
-              <p>Brands</p>
+              <p className="text-5xl font-bold text-black font-palanquin">
+                1k+
+              </p>
+              <p className="leading-7 font-montserrat text-[#6D6D6D]">Brands</p>
             </div>
             <div>
-              <p>500+</p>
-              <p>shops</p>
+              <p className="text-5xl font-bold text-black font-palanquin">
+                500+
+              </p>
+              <p className="leading-7 font-montserrat text-[#6D6D6D]">shops</p>
             </div>
             <div>
-              <p>250k+</p>
-              <p>Customers</p>
+              <p className="text-5xl font-bold text-black font-palanquin">
+                250k+
+              </p>
+              <p className="leading-7 font-montserrat text-[#6D6D6D]">
+                Customers
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <img src={imageUrl} alt="" />
+          <div>
+            <div>
+              <div>
+                <div>
+                  <img src="" alt="" />
+                </div>
+              </div>
             </div>
           </div>
         </section>
